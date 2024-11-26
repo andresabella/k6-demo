@@ -1,0 +1,5 @@
+Global Installation
+$ npm install -g @apideck/postman-to-k6
+
+comando para ejecutar la conversion: 
+postman-to-k6 API_AUTOMATION.postman_collection.json -o k6-script.js

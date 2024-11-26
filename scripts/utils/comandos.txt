@@ -1,0 +1,11 @@
+
+
+ejecutar en k6 cloud
+
+logearse: k6 cloud login --token aa9bf18d90476299469a36c2ad88d9ffe76ac24a6f528c39deb0363c18434342
+Ejecutar en cloud: k6 cloud run script1.js  
+
+
+Comando para ejecutar reportes:
+k6 run script1.js --out json=test.json
+
